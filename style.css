@@ -39,12 +39,40 @@ body{
     height: 40px;
     display: flex;
     border-radius: 50px;
-    width: 80%;
+    width: 95%;
     position: absolute;
     background-color: white;
     justify-content: center;
     align-items: center;
-    column-gap:30px;
+    column-gap:300px;
     margin-top: 30px;
     list-style: none;
+   
+    left: 50%; /*will make the white llong pill position on middle*/
+    transform: translateX(-50%);
+
+    font-family: "Cause", cursive;
+    font-weight:800;
+    color: #E47173;
+}
+
+
+
+.logo-icon{
+    display: flex;
+    width: 43px;
+    height: 43px;
+    align-items: center;
+    
+}
+
+.logo-font{
+  display: flex;
+  align-items: center;
+   
+}
+
+.font-design{
+   font-family: "Berkshire Swash", serif;
+   color: #FFBFCA;
 }

@@ -1,0 +1,50 @@
+
+*{
+    margin: 0 0;
+    padding: 0 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFF7F7;
+}
+
+.header-awning{
+  
+    display: flex;/*makes the boxes from left to right*/
+    width: 100%;
+    overflow: hidden;
+    justify-content: center;
+    position: absolute;
+}
+.yellow{
+    background-color: #FFF0BF;
+    width: 90px;
+    height: 148px;
+    border-radius: 0px 0px 50px 50px;
+    flex-shrink: 0; 
+}
+
+.pink{
+   
+    background-color: #FFBFCA;
+    width: 90px;
+    height: 148px;
+    border-radius: 0px 0px 50px 50px;
+    flex-shrink: 0; 
+}
+
+.nav-links{
+    
+    height: 40px;
+    display: flex;
+    border-radius: 50px;
+    width: 80%;
+    position: absolute;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    column-gap:30px;
+    margin-top: 30px;
+    list-style: none;
+}

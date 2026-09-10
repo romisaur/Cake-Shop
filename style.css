@@ -77,21 +77,42 @@ body{
    color: #FFBFCA;
 }
 
-.bg-photos{
-  
 
-}
-.whisk{
-    height: 380px;
-    margin-top: 100px;
-    margin-left: 10px;
+
+.bg-utensils img {
+    position: absolute;
+    z-index: 1;
+    object-fit: contain;
 }
 
-.spoon{
-    height:300px;
-    margin-left: 700px;
+/* Top-Left: Whisk */
+.whisk {
+    top: 5%;
+    left: 5%;
+    height: 320px;
+   
 }
-.roller{
-    margin-left: -150px;
-    margin-top: -100px;
+
+/* Bottom-Left: Rolling Pin */
+.roller {
+    bottom: 0%;
+    left: 2%;
+    height: 280px;
+   
+}
+
+/* Top-Right: Wooden Spoon */
+.spoon {
+    top: 10%;
+    right: 5%;
+    height: 300px;
+   
+}
+
+/* Bottom-Right: Spatula */
+.spatula {
+    bottom: 5%;
+    right: 5%;
+    height: 280px;
+   
 }
